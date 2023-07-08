@@ -2,14 +2,9 @@ name: Github actions
 on: workflow_dispatch
 jobs:
   first-job:
-    runs-on: 
-      ubuntu-lastest
+    runs-on: ubuntu-lastest
     steps:
       - name: Print greeting
-        run: | 
-          echo "hello"
-          echo "How are you"
-          echo "welcome to my sweet repo home"
+        run: echo "hello"
       - name: Print goodbye
-        run: 
-          echo "Sayonara"
+        run: echo "Sayonara"
