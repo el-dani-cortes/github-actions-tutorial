@@ -1,4 +1,4 @@
-name: Github actions
+name: Github action multiple lines
 on: workflow_dispatch
 jobs:
   first-job:
